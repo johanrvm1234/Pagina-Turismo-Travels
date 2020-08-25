@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Century Gothic';
+}
+a{
+    text-decoration: none;  
+    background: white;
+    color: #5882ad;
+}
+.menu ul{
+    list-style: none;
+}
+.title{
+    width: 100%;
+    background: #5882ad;
+    height: 200px;
+
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.navegacion{
+    width: 100%;
+    background: #5882ad;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+}
+
+.menu li {
+    flex-basis: 0;
+    flex-grow: 1;
+    color: #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+.menu li a.text item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+
+}
+
+.menu li a{
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacion li a{
+    background-color:#5882ad;
+    color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+}
